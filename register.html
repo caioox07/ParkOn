@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Conta - ParkOn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styele-login.css">
+</head>
+<body class="login-page">
+
+  <div class="login-container">
+    <h2><i class="material-icons">person_add</i> Criar Conta</h2>
+
+    <form action="../php/register.php" method="POST">
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <button type="submit" class="btn">Cadastrar</button>
+    </form>
+
+    <p>Já tem conta?
+      <a href="login.html">Fazer login</a>
+    </p>
+  </div>
+
+</body>
+</html>
